@@ -4,4 +4,4 @@ The book is about how can we address or handle legacy code. There are several te
 ### What is Legacy Code?
 So basically it is a code base with automated testing. That's it! It quoted in the book:
 
-<img src="images/code_without_test_quote.JPG" alt="code_without_test_quote" class="inline"/>
+<img src="images/code_without_test_quote.jpg" class="inline"/>
