@@ -10,3 +10,7 @@ It is the worst nightmare of every developer. Why? Because it is a code base wit
 ## Part I: The Mechanics of Change
 
 For this part, the main focus...
+
+## Part II: Changing Software
+
+## Part III: Dependency-Breaking Techniques
