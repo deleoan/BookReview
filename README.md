@@ -1,1 +1,1 @@
-# Working Effectively with Legacy Code (Book Review)
+# Working Effectively with Legacy Code
