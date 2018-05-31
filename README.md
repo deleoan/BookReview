@@ -3,7 +3,7 @@ The book is about how can we address or handle Legacy Code. There are several te
 
 ### What is Legacy Code?
 
-It is the worst nightmare of every developer. Why? Because it is a code base with automated testing. That's it! It is quoted in the book:
+It is the worst nightmare of every developer. Why? Because it is a code base without automated testing. That's it! It is quoted in the book:
 
 <img src="images/code_without_test_quote.jpg" class="inline"/>
 
