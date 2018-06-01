@@ -51,6 +51,19 @@ There are four techniques given in the book to handle this case:
     <li>Wrap Class</li>
 </ul>
 
-<br>Sprout Method</b>
+<b>Sprout Method</b> 
+Means that we should write code in a new method then the new method should be developed using TDD. An example in the book is that in the <i>TransactionGate</i> method we need to check if entry is not yet in the <i>transactionBundle</i>.
+
+<img src="images/sprout_method_sample1.jpg" class="inline"/>
+
+To apply Sprout Method, instead of editing <i>TransactionGate</i> and just add a checking we need to create a new method for that.
+
+<img src="images/sprout_method_sample2" class="inline"/>
+
+<img src="images/sprout_method_sample3" class="inline"/>
+
+With this technique, it would be much more easier to test and easier to understand the new code because it is already separated from the old code. There are also downsides of using this technique but at least it is applicable if we the new feature is urgent and we need to put it in <i>test harness</i>.
+
+<b>Sprout Class</b>
 
 ## Part III: Dependency-Breaking Techniques
