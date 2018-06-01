@@ -25,7 +25,9 @@ Knowing the difference of<b>Adding a Feature and Fixing a bug</b> is somehow unc
 
 <b>Improving the design</b> is simply refactoring, this is the change of software wherein we want to improve the structure of the code and make it more readable and maintable. <i>Refactoring</i> means that changes that we apply does not change the behavior of the system.
 
-<b>Optimization</b>, almost same with Refactoring but the purpose is different. In Optimization the purpose is to make the code faster, it focuses on saving memory.
+<b>Optimization</b>, almost same with Refactoring by not changing system's behavior but the purpose is different. In Optimization the purpose is to make the code faster, it focuses on saving memory.
+
+We realized that the hardest part of changing a software is maintaing its behavior or <i>Preserving behavior</i>. Why? Because there are changes that can be risky, we must ensure that we know why we are making that specific change, analyze the change, be cautious, and <i>“If it’s not broke, don’t fix it.”</i> 
 
 
 ## Part II: Changing Software
