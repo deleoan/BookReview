@@ -3,7 +3,7 @@ The book is about how can we address or handle Legacy Code. There are several te
 
 ### What is Legacy Code?
 
-It is the worst nightmare of every developer. Why? Because it is a code base without automated testing. That's it! It is quoted in the book:
+It is the worst nightmare of every developer. Why? Because it is a code base without automated testing, it is also called <i>"Spaghetti Code"</i>, and messy code structure. That's it! It is quoted in the book:
 
 <img src="images/code_without_test_quote.jpg" class="inline"/>
 
@@ -31,8 +31,26 @@ We realized that the hardest part of changing a software is maintaing its behavi
 
 ### Working with Feedback
 
+### Sensing and Separation
 
+### The Seam Model
+
+### Tools
 
 ## Part II: Changing Software
+
+### I Don't Have Much Time and I Have to Change It
+
+When the new feature is urgent and should be implemented within the day, developer may feel pressure. It will be hard for the developer to know and evaluate if it is possible to add a unit test for the feature. Problem is, if the base code is a Legacy Code it will be hard to estimate the effort that will be needing to implement a unit test. 
+
+There are four techniques given in the book to handle this case:
+<ul>
+    <li>Sprout Method</li>
+    <li>Sprout Class</li>
+    <li>Wrap Method</li>
+    <li>Wrap Class</li>
+</ul>
+
+<br>Sprout Method</b>
 
 ## Part III: Dependency-Breaking Techniques
