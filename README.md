@@ -62,8 +62,15 @@ To apply Sprout Method, instead of editing <i>TransactionGate</i> and just add a
 
 <img src="images/sprout_method_sample3" class="inline"/>
 
-With this technique, it would be much more easier to test and easier to understand the new code because it is already separated from the old code. There are also downsides of using this technique but at least it is applicable if we the new feature is urgent and we need to put it in <i>test harness</i>.
+With this technique, it would be much more easier to test and easier to understand the new code because it is already separated from the old code. There are also downsides of using this technique but at least it is applicable if the new feature is urgent.
 
 <b>Sprout Class</b>
+Means that we will create a new class for the new feature and then will use this class in the existing code.
+
+<b>Wrap Method</b>
+There are different kinds of implementing Wrap Method. One is creating a new method using the old code's method name, this is to add a behavior in the existing method. Second is renaming of an existing method.
+
+<b>Wrap Class</b>
+Wrap Method and Wrap Class are somehow similar, almost have the same concept. This is also known as <i>Decorator Pattern</i> technique wherein we create objects of a class that wraps another class and pass around.
 
 ## Part III: Dependency-Breaking Techniques
