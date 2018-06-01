@@ -9,7 +9,7 @@ It is the worst nightmare of every developer. Why? Because it is a code base wit
 
 ## Part I: The Mechanics of Change
 
-For this part, the main focus is to know the reasons on changing software, how to test changes, ....
+### Changing Software
 
 There are <b>Four Reasons to Change Software</b> stated in the book, which are:
 <ul>
@@ -28,6 +28,9 @@ Knowing the difference of<b>Adding a Feature and Fixing a bug</b> is somehow unc
 <b>Optimization</b>, almost same with Refactoring by not changing system's behavior but the purpose is different. In Optimization the purpose is to make the code faster, it focuses on saving memory.
 
 We realized that the hardest part of changing a software is maintaing its behavior or <i>Preserving behavior</i>. Why? Because there are changes that can be risky, we must ensure that we know why we are making that specific change, analyze the change, be cautious, and <i>“If it’s not broke, don’t fix it.”</i> 
+
+### Working with Feedback
+
 
 
 ## Part II: Changing Software
