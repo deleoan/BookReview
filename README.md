@@ -9,7 +9,24 @@ It is the worst nightmare of every developer. Why? Because it is a code base wit
 
 ## Part I: The Mechanics of Change
 
-For this part, the main focus...
+For this part, the main focus is to know the reasons on changing software, how to test changes, ....
+
+There are <b>Four Reasons to Change Software</b> stated in the book, which are:
+<ul>
+    <li>Adding a Feature</li>
+    <li>Fixing a bug</li>
+    <li>Improving the design</li>
+    <li>Optimizing resource usage</li>
+</ul>
+
+Knowing the difference of<b>Adding a Feature and Fixing a bug</b> is somehow unclear. While working for a specific change, developer may say that it is an additional feature while customer may say that it is only a bug fix. In the book <i>Behavior</i> was used to clearely define those two. The difference of adding new behavior and changing old behavior is quoted in the book:
+
+<img src="images/behavior_quote.jpg" class="inline"/>
+
+<b>Improving the design</b> is simply refactoring, this is the change of software wherein we want to improve the structure of the code and make it more readable and maintable. <i>Refactoring</i> means that changes that we apply does not change the behavior of the system.
+
+<b>Optimization</b>, almost same with Refactoring but the purpose is different. In Optimization the purpose is to make the code faster, it focuses on saving memory.
+
 
 ## Part II: Changing Software
 
