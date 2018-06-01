@@ -58,9 +58,9 @@ Means that we should write code in a new method then the new method should be de
 
 To apply Sprout Method, instead of editing <i>TransactionGate</i> and just add a checking we need to create a new method for that.
 
-<img src="images/sprout_method_sample2" class="inline"/>
+<img src="images/sprout_method_sample2.jpg" class="inline"/>
 
-<img src="images/sprout_method_sample3" class="inline"/>
+<img src="images/sprout_method_sample3.jpg" class="inline"/>
 
 With this technique, it would be much more easier to test and easier to understand the new code because it is already separated from the old code. There are also downsides of using this technique but at least it is applicable if the new feature is urgent.
 
@@ -72,5 +72,19 @@ There are different kinds of implementing Wrap Method. One is creating a new met
 
 <b>Wrap Class</b>
 Wrap Method and Wrap Class are somehow similar, almost have the same concept. This is also known as <i>Decorator Pattern</i> technique wherein we create objects of a class that wraps another class and pass around.
+
+### It Takes Forever to Make a Change
+
+### How Do I Add a Feature
+
+### I Can't Get This Class Into a Test Harness
+
+### I Can't Run This Method in a Test Harness
+
+### I Need to Make a Change. What Methods Should I Test?
+
+### I Need to Make Many Changes in One Area
+
+### I Need to Make a Change, but I Don't Know What Tests to Write
 
 ## Part III: Dependency-Breaking Techniques
