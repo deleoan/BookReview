@@ -75,6 +75,18 @@ Wrap Method and Wrap Class are somehow similar, almost have the same concept. Th
 
 ### It Takes Forever to Make a Change
 
+Measuring how long does it takes when making changes is not easy. It is depending on how large the change will be, how clear is the base code, how messy is the base code, etc. In the book, this chapter only discussed what are the reasons and solutions why <b>It Takes Forever to Make a Change</b>.
+
+<b>Understanding</b>
+It takes too much time knowing what to change in the code. One of the reason is unfamiliarity, when developers are not familiar with the codesb it will take time to understand it. Another thing is that there is Well-Maintained System and a Legacy System. Sure enough that it is easier to add change in a Well-Maintained System rather than a Legacy System. The smaller, cleaner, understandble the code is, the easier to change.
+
+<b>Lag Time</b>
+In the book, Lag Time is defined as "The amount of time that passes between a change that you make and the
+moment that you get real feedback about the change." We usually try to add all changes and make them work to avoid building oftem. Cases is that if change worked then we can proceed. But, if it fail changing becomes slower and slower. Issue is dependency, when we want to compile a specific change we also need to compile other things because of dependency. 
+
+<b>Breaking Dependencies</b>
+So how do we break dependencies? //
+
 ### How Do I Add a Feature
 
 ### I Can't Get This Class Into a Test Harness
