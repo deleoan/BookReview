@@ -19,7 +19,7 @@ There are <b>Four Reasons to Change Software</b> stated in the book, which are:
     <li>Optimizing resource usage</li>
 </ul>
 
-Knowing the difference of<b>Adding a Feature and Fixing a bug</b> is somehow unclear. While working for a specific change, developer may say that it is an additional feature while customer may say that it is only a bug fix. In the book <i>Behavior</i> was used to clearely define those two. The difference of adding new behavior and changing old behavior is quoted in the book:
+Knowing the difference of <b>Adding a Feature and Fixing a bug</b> is somehow unclear. While working for a specific change, developer may say that it is an additional feature while customer may say that it is only a bug fix. In the book <i>Behavior</i> was used to clearely define those two. The difference of adding new behavior and changing old behavior is quoted in the book:
 
 <img src="images/behavior_quote.jpg" class="inline"/>
 
