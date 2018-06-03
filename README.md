@@ -89,10 +89,12 @@ So how do we break dependencies? //
 
 ### How Do I Add a Feature
 TDD was defined as the most powerful technique when adding a feature. We should keep in mind that creating TDD is one step at atime or baby steps. Steps when creating a TDD are:
-1. Write a Failing Test (red)
-2. Make it Pass (green)
-3. Refactor (Remove duplication)
-4. Repeat
+<ul>
+    <li>Write a Failing Test (red)</li>
+    <li>Make it Pass (green)</li>
+    <li>Refactor (Remove duplication)</li>
+    <li>Repeat</li>
+</ul>
 Another technique that was discussed is Programming by Difference wherein we create subclass that can override the super class. Applying Inheritance is a good technique because we can add the new feature without changing the super class. We can add changes immediately and apply as well clean code. 
 
 ### I Can't Get This Class Into a Test Harness
