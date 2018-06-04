@@ -90,6 +90,9 @@ Another technique that was discussed is Programming by Difference wherein we cre
 
 ### I Can't Get This Class Into a Test Harness
 
+This chapter discussed several problems on why it is hard to add class in Test Harness and several solutions to handle those. 
+There are some points that I want to take note in this Chapter: First, is that when we need to add a class into a Test Harned we should try it first before evaluating how hard to add a test on it. Second, we should keep in mind that test code should always be clean although Test Code and Production Code does not have the same standard we shoule still check the cleanliness of a code. Third, when handling constructors and then the object requires a hard parameter to construct we can just pass null parameters. //
+
 ### I Can't Run This Method in a Test Harness
 
 ### I Need to Make a Change. What Methods Should I Test?
