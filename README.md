@@ -109,6 +109,18 @@ Last note that we should keep in mind from the book: Is that it is okay to make 
 
 ### I Need to Make a Change. What Methods Should I Test?
 
+This chapter discussed on where we should we write tests when we make changed. The simplest answer is that write tests for all the methods that we are going to change. But this is not easy, we should know the effects and we need to reason about the effects when writing tests. The book suggested using <i>Effect Sketching</i>, wherein we will create diagram to visualize the effects of changing fields, methods, etc. There are many advantages when we use Effect Sketching.
+
+<img src="images/effect_sketching.jpg" class="inline"/>
+
+Sample diagram of Effect Sketching:
+
+<img src="images/sample_effect_sketching.jpg" class="inline"/>
+
+It was also suggested to apply <i>Characterization Tests</i> around Legacy Code. Reason why we should do this is to know the current behavior of the system and to evaluate effects of change. Also, to know the impact to downstreams if objects stop working. 
+
+Encapsulation//
+
 ### I Need to Make Many Changes in One Area. Do I Have to Break Dependencies for All the Classes Involved?
 
 Adding tests to a well written code is easier than writing tests in a Legacy Code. There's no need to break dependencies but the best thing to do is to find a point where to write test which will handle several cases. The book introduced <i>Interception Point</i> which is a point that can detect the effect of the changes we make. There are two benefits discussed in the book when using Interception Point: "We could have less dependency breaking to do, and we’re also holding a bigger chunk in the vise". Another thing that was mentioned in the book is <i>Pinch Points</i>. It is quoted in the book:
