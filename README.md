@@ -112,7 +112,7 @@ The book introduced <b>Characterization Tests</b> for us to know the current beh
     <li>Change the test so that it expects the behavior that the code produces.</li>
 </ul>
 Characterization Tests was defined in the book as:
-<img src="images/pinch_points.jpg" class="inline"/>
+<img src="images/characterization_tests.jpg" class="inline"/>
 
 Another thing that was discussed in this chapter is what to do whenever we find bugs. We should only fix the bug if the system is not yet deployed otherwise just raise the bug you encountered.
 
