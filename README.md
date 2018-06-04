@@ -94,7 +94,13 @@ Another technique that was discussed is Programming by Difference wherein we cre
 
 ### I Need to Make a Change. What Methods Should I Test?
 
-### I Need to Make Many Changes in One Area
+### I Need to Make Many Changes in One Area. Do I Have to Break Dependencies for All the Classes Involved?
+
+Adding tests to a well written code is easier than writing tests in a Legacy Code. There's no need to break dependencies but the best thing to do is to find a point where to write test which will handle several cases. The book introduced <i>Interception Point</i> which is a point that can detect the effect of the changes we make. There are two benefits discussed in the book when using Interception Point: "We could have less dependency breaking to do, and we’re also holding a bigger chunk in the vise". Another thing that was mentioned in the book is <i>Pinch Points</i>. It is quoted in the book:
+
+<img src="images/pinch_points.jpg" class="inline"/>
+
+The main suggestion for this chapter is that when we are writing tests we should make the tests close to the change point as much as possible.
 
 ### I Need to Make a Change, but I Don't Know What Tests to Write
 
