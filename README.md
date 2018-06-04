@@ -104,4 +104,16 @@ The main suggestion for this chapter is that when we are writing tests we should
 
 ### I Need to Make a Change, but I Don't Know What Tests to Write
 
+The book introduced <b>Characterization Tests</b> for us to know the current behavior of the system. When we are changing the current system, it is important to understand the flow of the system or what it does. There are several steps written in the book when writing Characterization Tests:
+<ul>
+    <li>Use a piece of code in a test harness.</li>
+    <li>Write an assertion that you know will fail.</li>
+    <li>Let the failure tell you what the behavior is.</li>
+    <li>Change the test so that it expects the behavior that the code produces.</li>
+</ul>
+Characterization Tests was defined in the book as:
+<img src="images/pinch_points.jpg" class="inline"/>
+
+Another thing that was discussed in this chapter is what to do whenever we find bugs. We should only fix the bug if the system is not yet deployed otherwise just raise the bug you encountered.
+
 ## Part III: Dependency-Breaking Techniques
