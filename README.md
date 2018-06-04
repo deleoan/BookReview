@@ -119,7 +119,10 @@ Sample diagram of Effect Sketching:
 
 It was also suggested to apply <i>Characterization Tests</i> around Legacy Code. Reason why we should do this is to know the current behavior of the system and to evaluate effects of change. Also, to know the impact to downstreams if objects stop working. 
 
-Encapsulation//
+Encapsulation and Test Coverage was also discussed in this chapter, It is quoted in the book that "Breaking encapsulation can make
+reasoning about our code harder, but it can make it easier if we end up with good explanatory tests afterward". When we do test coverage first it can help get more encapsulation afterwards. 
+
+When we are writing tests it is important to know first the effect and the affected once changes was applied. 
 
 ### I Need to Make Many Changes in One Area. Do I Have to Break Dependencies for All the Classes Involved?
 
