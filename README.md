@@ -90,12 +90,22 @@ Another technique that was discussed is Programming by Difference wherein we cre
 
 ### I Can't Get This Class Into a Test Harness
 
-This chapter discussed several problems on why it is hard to add class in Test Harness and several solutions to handle those. 
+This chapter discussed several problems adding class in Test Harness and several solutions to handle those. 
 There are some points that I want to take note in this Chapter: First, is that when we need to add a class into a Test Harned we should try it first before evaluating how hard to add a test on it. Second, we should keep in mind that test code should always be clean although Test Code and Production Code does not have the same standard we shoule still check the cleanliness of a code. Third, when handling constructors and then the object requires a hard parameter to construct we can just pass null parameters. But we should make sure that we do this only in test code, we should avoid passing null parameter on production not unless it is required or we have no other choice. Fourth, Parameterized Constructor</i>... Fifth, <i>Singleton Design Patter</i>... Sixth, <i>Subclass and Override Method</i> //
 
 ### I Can't Run This Method in a Test Harness
 
-This chapter discussed several problems on why it is hard to add method in Test Harness and several solutions to handle those. 
+This chapter discussed several problems adding method in Test Harness and several solutions to handle those. Writing tests for methods that we will be changing is the second part of the battle after instantiating the class. There are some points that I want to take note in this Chapter: First, when we are having trouble writing test for private methods we can try writing test through a public method. There are several reasons stated in the book on why we not want to change private methods to public just to test it:
+<ul>
+    <li>The method is just a utility; it isn’t something clients would care about.</li>
+    <li>If clients use the method, they could adversely affect results from other methods on the class.</li>
+</ul>
+There's a solution for the second problem, it is to move the private methods into a new class and change it to public then class can create an internal instance of it.
+Second, the reason as to why it is hard to test the image of the class is because of its too many responsibilities. Solution is to break down the class into smaller pieces but it will take time refactoring and consider how much time we still have. Third, there are methods that we can't just easily test because of it does not return values such as GUI. We cannot write tests for methods that generates window, solution is to use the tool which is <i>Extract Method</i> to divide the method. Fourth is the difference between command method and query:
+
+<img src="images/command_and_query_method.jpg" class="inline"/>
+
+Last note that we should keep in mind from the book: Is that it is okay to make the code cleaner afterwards, it is okay to extract methods with poor name and poor structure. We should focus on writing the tests in place.
 
 ### I Need to Make a Change. What Methods Should I Test?
 
