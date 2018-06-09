@@ -152,4 +152,26 @@ This chapter discussed that being too reliant to libraries can cause problems. I
 
 <img src="images/libraries_dependency.jpg" class="inline"/>
 
+### My Application Is All API Calls
+
+The problem when we choose to integrate with someone else's code is that our applications being dependent to libraries that we cannot make changes in it. With this kind of issue, we need to study first what the code does. There are two approaches discussed in the book:
+<ul>
+    <li>Skin and Wrap the API </li>
+        - Create interface that mirror on what the API does. Useful when we want to be not dependent from libraries. 
+        <ul>
+            <li>The API is relatively small. </li>
+            <li>You want to completely separate out dependencies on a third-party
+                library. </li>
+            <li>You don’t have tests, and you can’t write them because you can’t test
+                through the API. </li>
+        </ul>
+    <li>Responsibility-Based Extraction </li>
+        - Indetifying the responsibilities of the code then extract methods. End up extraction own logic based on API just to separate. 
+        <ul>
+            <li>The API is more complicated. </li>
+            <li>You have a tool that provides a safe extract method support, or you feel
+                confident that you can do the extractions safely by hand. </li>
+        </ul>
+</ul>
+
 ## Part III: Dependency-Breaking Techniques
