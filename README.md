@@ -180,7 +180,9 @@ This chapter disucussed only techniques we can apply when we don't understand co
 <ul>
     <li>Notes/Sketching </li>
         - This is just like creating UML by connecting relationships of the code.
+        
         <img src="images/sketch.jpg" class="inline"/>
+        
     <li>Listing Mark up </li>
         - This is uselful in very long methods, it was suggested in the book to print the code and do the following:
         <ul>
