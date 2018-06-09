@@ -146,4 +146,10 @@ Characterization Tests was defined in the book as:
 
 Another thing that was discussed in this chapter is what to do whenever we find bugs. We should only fix the bug if the system is not yet deployed otherwise just raise the bug you encountered.
 
+### Dependencies on Libraries Are Killing Me
+
+This chapter discussed that being too reliant to libraries can cause problems. It is quoted in the book that we should "Avoid littering direct calls to library classes in your code. You might think that you’ll never change them, but that can become a self-fulfilling prophecy." There are also cases wherein classes are final/sealed which makes testing hard and need to separate to write test. <i>Once dilemma</i> was also mentioned in the book where in library assumes that "there is going to be only one instance of a class in the system". Because of this, it would e hard to fake objects. 
+
+<img src="images/libraries_dependency.jpg" class="inline"/>
+
 ## Part III: Dependency-Breaking Techniques
