@@ -174,4 +174,24 @@ The problem when we choose to integrate with someone else's code is that our app
         </ul>
 </ul>
 
+### I Don't Understand the Code Well Enough to Change It
+
+This chapter disucussed only techniques we can apply when we don't understand code well enough:
+<ul>
+    <li>Notes/Sketching </li>
+        - This is just like creating UML by connecting relationships of the code.
+        <img src="images/sketch.jpg" class="inline"/>
+    <li>Listing Mark up </li>
+        - This is uselful in very long methods, it was suggested in the book to print the code and do the following:
+        <ul>
+            <li>Separating Responsibilities </li>
+            <li>Understanding Method Structure </li>
+            <li>Extract Method </li>
+            <li>Understand the Effects of a Change </li>
+        </ul>
+    <li>Scratch refactoring </li>
+        - Do refactoring to understand the code without thinking of test first.
+    <li>Delete unused code</li>
+</ul>
+
 ## Part III: Dependency-Breaking Techniques
