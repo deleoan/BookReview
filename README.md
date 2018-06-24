@@ -203,4 +203,4 @@ This is for those classes that have object creation in constructors. Placing the
 
 ### <i>End</i>
 There were so many techniques that was discussed in the book. I only included some useful techniques in this book review and I did not provide some examples. But there are several examples in the book. 
-Source: Working Effectively with Legacy Code by Michael C. Feathers
+<br>Source:</br> Working Effectively with Legacy Code by Michael C. Feathers
