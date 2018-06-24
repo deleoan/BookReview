@@ -202,5 +202,5 @@ This is the most powerful method when breaking dependencies. With this method we
 This is for those classes that have object creation in constructors. Placing the class under test harness would be hard for cases like this. So a solution for that is to extract a method and the return the object created. With this we can manipulate the return of the method by applying Extract and Override Call Method.
 
 ### <i>End</i>
-There are so many techniques that was discussed in the book. I only included some useful techniques in this book review and I did not provide some examples. But there are several examples in the book. 
+There were so many techniques that was discussed in the book. I only included some useful techniques in this book review and I did not provide some examples. But there are several examples in the book. 
 Source: Working Effectively with Legacy Code by Michael C. Feathers
