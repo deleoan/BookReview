@@ -29,14 +29,6 @@ Knowing the difference of <b>Adding a Feature and Fixing a bug</b> is somehow un
 
 We realized that the hardest part of changing a software is maintain its behavior or <i>Preserving behavior</i>. Why? Because there are changes that can be risky, we must ensure that we know why we are making that specific change, analyze the change, be cautious, and <i>“If it’s not broke, don’t fix it.”</i> 
 
-### Working with Feedback
-
-### Sensing and Separation
-
-### The Seam Model
-
-### Tools
-
 ## Part II: Changing Software
 
 ### I Don't Have Much Time and I Have to Change It
@@ -195,3 +187,20 @@ This chapter disucussed only techniques we can apply when we don't understand co
 </ul>
 
 ## Part III: Dependency-Breaking Techniques
+
+### Extract and Override Call
+
+Using this is verey helpful when we want to place a specific a method into a test harness. By simply extracting method and then create a test for the extracted method. We can easily override the method and manipulate the return of that specific method. This is helpful for breaking dependencies on a method call.
+
+### Expose Static Method
+
+This is for those classes that is har to instantiate when creating tests. With this method we can just simply extract method and make the method static. "Encapsulation is a great thing for classes, but the static area of a class isn’t really part of the class".
+
+### Extract Method
+
+This is the most powerful method when breaking dependencies. With this method we can break large existing methods into smaller ones. Not only that, but we also made the code more readable and easy to understand.
+
+### Extract and Override Factory Method
+
+This is for those classes that have object creation in constructors. Placing the class under test harness would be hard for cases like this. So a solution for that is to extract a method and the return the object created. With this we can manipulate the return of the method by applying Extract and Override Call Method.
+
